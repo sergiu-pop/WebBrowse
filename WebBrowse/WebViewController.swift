@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import WebKit
 
-class ViewController: UIViewController {
+class WebViewController: UIViewController {
+    
+    var webView : WKWebView? {
+        return self.view as? WKWebView
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
 
